@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,7 +41,7 @@ namespace Project1
             {
                 Console.WriteLine($"Число {b} меньше числа {a}");
             }*/
-            int a = 7;
+            /*int a = 7;
             int b = 7;
             if (b > a)
             {
@@ -52,10 +54,61 @@ namespace Project1
             else
             {
                 Console.WriteLine($"Число {b} равно числу {a}");
+            }*/
+
+            /*for (int i = 1; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }*/
+
+            /*int i = 0;
+            while (i <= 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }*/
+            /*int[] numbers = new int[5];
+            int[] numbers2 = { 5, 6, 7, 8, 2 };
+            Console.WriteLine(numbers2[3]);*/
+
+            /*void HelloWorls()
+            {
+                Console.WriteLine("Hello");
             }
+            HelloWorls();
 
+            void Sum(int a, int b)
+            {
+                int sum = a + b;
+                Console.WriteLine(sum);
+            }
+            Sum(5, 7);*/
 
+            /*string emaN = "Kirill";
+            int egA = 22;
 
+            void Human(string name, int age)
+            {
+                Console.WriteLine($"name = {name}, {age}");
+            }
+            Human(emaN, egA);*/
+            House tower = new House();
+            tower.street = "Красная";
+            tower.number = 50;
+
+            tower.Print();
+
+            
+        }
+        class House
+        {
+            public string street;
+            public int number;
+
+            public void Print()
+            {
+                Console.WriteLine($"street,{number}");
+            }
         }
     }
 }
