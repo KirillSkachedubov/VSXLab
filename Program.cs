@@ -10,7 +10,7 @@ namespace Project1
     {
         static void Main(string[] args)
         {
-            int a = 3;
+            /*int a = 3;
             bool b00l = false;
             byte b = 1;
             short s = 0;
@@ -19,7 +19,43 @@ namespace Project1
             double d = 1.2;
 
             char c = 's';
-            string str = "Hello";
+            string str = "Hello";*/
+
+            /*int a = 5;
+            int b = 7;
+            int c = 10;
+            if (b > a && c > b)
+            {
+                Console.WriteLine($"Число {c} самое большое из этих чисел");
+            }*/
+
+            /*int a = 8;
+            int b = 4;
+            if (b > a)
+            {
+                Console.WriteLine($"Число {b} больше числа {a}");
+            }
+            else
+            {
+                Console.WriteLine($"Число {b} меньше числа {a}");
+            }*/
+            int a = 7;
+            int b = 7;
+            if (b > a)
+            {
+                Console.WriteLine($"Число {b} больше числа {a}");
+            }
+            else if (b < a)
+            {
+                Console.WriteLine($"Число {b} меньше числа {a}");
+            }
+            else
+            {
+                Console.WriteLine($"Число {b} равно числу {a}");
+            }
+
+
+
         }
     }
 }
